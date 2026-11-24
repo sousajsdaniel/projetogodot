@@ -1,0 +1,62 @@
+# Godot specific ignores
+.godot/
+*.import
+*.translated.pot
+*.lock
+*.tres
+*.scn
+
+# Mono specific ignores
+mono_crash.*.json
+.mono/
+data_*/
+mono/
+metadata/
+.msbuild/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.booproj
+*.pidb
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb.meta
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds
+bin/
+build/
+builds/
+.build_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Godot exports
+html5_build/
+.html5/
+Jumanji.html
+Jumanji.js
+Jumanji.wasm
